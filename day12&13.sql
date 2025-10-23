@@ -10,7 +10,7 @@ CREATE TABLE Books(
     title VARCHAR(150) NOT NULL,
     published_year INT,
     author_id INT,
-    FOREIGN KEY (author_id) REFERENCES Authors(authot_id)
+    FOREIGN KEY (author_id) REFERENCES Authors(author_id)
 );
 DESCRIBE Authors;
 DESCRIBE Books;
